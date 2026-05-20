@@ -4,7 +4,9 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "/SW"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -34,6 +36,7 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
+      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -52,7 +55,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffdff",
     "zone_display_mode": 0
   },
   "git": {
@@ -90,7 +93,18 @@
       8,
       9
     ],
-    "col_widths": [],
+    "col_widths": [
+      156,
+      141,
+      103,
+      71,
+      103,
+      103,
+      103,
+      74,
+      103,
+      479
+    ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -102,7 +116,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": -1
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
