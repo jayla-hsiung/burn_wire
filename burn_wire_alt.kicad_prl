@@ -5,7 +5,13 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "/SW"
+      "/Vout",
+      "GND",
+      "/BST",
+      "/Vin",
+      "/EN",
+      "/PGOOD",
+      "/FB"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -23,7 +29,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
