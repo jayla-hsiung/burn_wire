@@ -1437,6 +1437,12 @@
 		(uuid "97c68849-0d88-4a6e-8a5e-b04a9a020888")
 	)
 	(junction
+		(at 217.17 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff694a9-45b3-4ea0-8620-7d7abae644fe")
+	)
+	(junction
 		(at 207.01 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1453,12 +1459,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e261a630-b221-47d4-9858-fd2ba9cf7993")
-	)
-	(junction
-		(at 114.3 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f320688d-b058-4ad6-9614-a284d5c2cc90")
 	)
 	(junction
 		(at 148.59 77.47)
@@ -1478,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 114.3 72.39)
+			(xy 201.93 95.25) (xy 201.93 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1558,6 +1558,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 92.71) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196245f0-5229-47d4-833d-127d2a4d3f00")
+	)
+	(wire
+		(pts
+			(xy 217.17 66.04) (xy 217.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3d3c24-ca3b-47bf-ad68-38b031b79ccc")
+	)
+	(wire
+		(pts
 			(xy 104.14 68.58) (xy 104.14 66.04)
 		)
 		(stroke
@@ -1628,6 +1648,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479df327-61b0-44b0-a5a8-34adec18cbdf")
+	)
+	(wire
+		(pts
 			(xy 161.29 60.96) (xy 162.56 60.96)
 		)
 		(stroke
@@ -1658,16 +1688,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 57.15) (xy 114.3 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd40fe6-be71-4264-88cf-960b2a1d9e74")
-	)
-	(wire
-		(pts
 			(xy 194.31 66.04) (xy 194.31 68.58)
 		)
 		(stroke
@@ -1678,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 57.15) (xy 120.65 57.15)
+			(xy 110.49 57.15) (xy 120.65 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1708,6 +1728,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 66.04) (xy 224.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f12665-489e-4760-8e03-a219b10b024c")
+	)
+	(wire
+		(pts
 			(xy 180.34 66.04) (xy 184.15 66.04)
 		)
 		(stroke
@@ -1728,7 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 71.12) (xy 135.89 86.36)
+			(xy 134.62 91.44) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1768,16 +1798,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 57.15) (xy 114.3 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f6de62-5fcc-4bae-a456-7c524c37a120")
-	)
-	(wire
-		(pts
 			(xy 194.31 66.04) (xy 207.01 66.04)
 		)
 		(stroke
@@ -1798,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 135.89 86.36)
+			(xy 201.93 95.25) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1868,6 +1888,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 91.44) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d071423b-639d-4708-a8a1-7cc5b09922b5")
+	)
+	(wire
+		(pts
 			(xy 167.64 66.04) (xy 172.72 66.04)
 		)
 		(stroke
@@ -1908,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 66.04) (xy 224.79 66.04)
+			(xy 207.01 66.04) (xy 217.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2624,7 +2654,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 114.3 68.58 0)
+		(at 217.17 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2635,7 +2665,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f706653-c655-4fde-b09a-a9660a6fb659")
 		(property "Reference" "R5"
-			(at 116.84 67.3099 0)
+			(at 219.71 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2646,7 +2676,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 116.84 69.8499 0)
+			(at 219.71 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2657,7 +2687,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 115.316 68.834 90)
+			(at 218.186 89.154 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +2698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 68.58 0)
+			(at 217.17 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2709,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 114.3 68.58 0)
+			(at 217.17 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
