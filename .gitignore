@@ -1,0 +1,21 @@
+# KiCad temporary session lock files
+*.lck
+~*.kicad_pro
+~*.kicad_sch
+
+# KiCad auto-saves and crash recovery files
+*_autosave-*
+*.recovered.*
+*-bak
+*.bak
+.history
+
+# KiCad local workspace preferences and automatically generated backups
+*.kicad_prl
+*-backups/
+fp-info-cache
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride

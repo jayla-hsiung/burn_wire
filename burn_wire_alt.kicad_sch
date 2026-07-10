@@ -2593,7 +2593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "33u"
 			(at 207.772 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,7 +2996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33u"
+		(property "Value" "22u"
 			(at 197.104 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
